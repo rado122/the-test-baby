@@ -13,6 +13,7 @@ services:
       - KAFKA_BOOTSTRAP_SERVER=kafka://kafka:9092
       - KAFKA_BOOSTRAP_SERVER_NAME=kafka
       - KAFKA_BOOSTRAP_SERVER_PORT=9092
+      - CLEARBIT_KEY=sk_8930d078680a63d81155c3e577da4419 # Super SUPER SUUUPER bad idea use .env file
     ports:
       - "8084:80"
       - "8000:8000"

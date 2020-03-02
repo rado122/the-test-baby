@@ -4,7 +4,8 @@ requires = [
     "colorlog>=3.1.4",
     "faust==1.8.1",
     "robinhood-aiokafka==1.0.5",
-    "simple-settings>=0.16.0"
+    "simple-settings>=0.16.0",
+    "clearbit>=0.1.7"
 ]
 
 setup(
